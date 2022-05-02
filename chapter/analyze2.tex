@@ -1,0 +1,121 @@
+%!TEX root = ../main.tex
+\section{Ⅰ级叶/盘转子错频方案的对比分析}
+在叶轮机械领域，对一个实际的叶盘转子，错频是指由于单个叶片之间因几何上或结构上的不同而造成的其在固有频率上的差异\cite{刘国钧1979图书馆史研究}。
+\subsection{多自由度系统的强迫响应分析}
+由前面的分析可知，响应分析在数学上是一个具有 38 个自由度的二阶线性
+微分方程的数值积分问题\cite{张和生1998地质力学系统理论, 1988汉语拼音正词法基本规则, 情感工学破解"舒服"之迷, 王明亮1998关于中国学术期刊标准化数据库系统工程的进展}。
+
+\subsubsection{动态响应的计算方法}
+\paragraph{系统的运动方程}
+多自由度系统运动微分方程的一般形式为：……
+\begin{enumerate}
+    \item ……
+    \item ……
+\end{enumerate}
+
+\paragraph{微分方程组的数值积分}
+一介常系数微分方程组的初值问题可表述为：……
+
+\subsubsection{强迫相应前的准备工作}
+……
+
+
+\begin{equation}
+    \vec{P}_{i}(u)=\sum_{j=0}^{k} \vec{V}_{i} \Lambda_{i}\left(k ; \vec{\beta}_{1}, \cdots \vec{\beta}_{n} ; u\right)
+\end{equation}
+
+\begin{equation}
+    \frac{|A(s)|^{2}}{|A(o)|^{2}}=\frac{\rho_{1} \rho_{2}}{\left(s+\rho_{1}\right)\left(s+\rho_{2}\right)}
+\end{equation}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}\figurenotation{此图中的曲线对应关系与\autoref{fig:figname1}相同}
+    \caption{部分相干调解与非相干解调平均误码性能的比较}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}\figurenotation[]{
+        1-太阳模拟器；2-单管及31 个PCM 容器；3-气泵；\\
+        4-干燥过滤器；5-手动调节阀；6-孔板流量计；\\
+        7-空气预热器；8，9-调功器；10-空气换热器.
+    }
+    \caption{单管换热系统流程图}
+    \label{fig:figname1}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \subfloat[分布符合 $1/f$ 规律图]{\includegraphics[width = 0.3\textwidth]{example-image}}
+	\hfill
+	\subfloat[大小与色彩]{\includegraphics[width = 0.3\textwidth]{example-image}}
+	\hfill
+	\subfloat[间距、大小与色彩均符合 $1/f$ 规律图符合 $1/f$ 规律图]{\includegraphics[width = 0.3\textwidth]{example-image}} 
+    \caption{图案例}    %大图名称
+    \label{fig:figname2}    %图片引用标记
+\end{figure}
+    
+引用图片样例如下：
+\begin{itemize}
+    \item 只引用编号：\verb|\ref{fig:figname1}| \ref{fig:figname1}
+    \item 引用类型和编号：\verb|\autoref{fig:figname1}| \autoref{fig:figname1}
+    \item 引用类型、编号、标题：\verb|\fullref{fig:figname1}| \fullref{fig:figname1}
+\end{itemize}
+
+
+\begin{table}[ht]
+    \caption{方法——干扰抑制结果}
+    \label{tab:1}
+    \centering
+    \begin{GDUTtable}{\textwidth}{Y|Y|Y|Y|Y}
+        干扰类型                   & 目标信号                 & 阵元数                & 干扰采样值数 & SINR(dB) \\ \hline
+        \multirow{4}{*}{第一类干扰} & \multirow{2}{*}{信号1} & 8                  & --     & 30.58    \\ \cline{3-5} 
+                               &                      & 4                  & --     & 21.16    \\ \cline{2-5} 
+                               & \multirow{2}{*}{信号4} & 8                  & --     & 38.28    \\ \cline{3-5} 
+                               &                      & 4                  & --     & 19.41    \\ \hline
+        \multirow{3}{*}{第二类干扰} & \multirow{3}{*}{信号4} & \multirow{2}{*}{8} & 30     & 4.69     \\ \cline{4-5} 
+                               &                      &                    & 19     & 4.83     \\ \cline{3-5} 
+                               &                      & 4                  & 30     & -0.42  \\
+    \end{GDUTtable}
+\end{table}
+
+
+
+\begin{table}[ht]
+    \caption{各组分$lgB_i$值}
+    \label{tab:2}
+    \centering
+    \begin{GDUTtable}{\textwidth}{YYYYY}
+        \multicolumn{1}{c|}{\multirow{4}{*}{序号}} & \multicolumn{2}{c|}{\multirow{2}{*}{$T = 1500K$}} & \multicolumn{2}{c}{\multirow{2}{*}{$T = 2000K$}} \\
+\multicolumn{1}{c|}{}                    & \multicolumn{2}{c|}{}                             & \multicolumn{2}{c}{}                             \\ \cline{2-5} 
+\multicolumn{1}{c|}{}                    & \multicolumn{2}{c|}{\multirow{2}{*}{组分$lgB_i$}}   & \multicolumn{2}{c}{\multirow{2}{*}{组分$lgB_i$}}   \\
+\multicolumn{1}{c|}{}                    & \multicolumn{2}{c|}{}                             & \multicolumn{2}{c}{}                             \\ \hline
+1                                        & abc                     & 123                     & abc                     & 123                    \\
+2                                        & abc                     & 124                     & abc                     & 124                    \\
+3                                        & abc                     & 125                     & abc                     & 125                    \\
+4                                        & abc                     & 126                     & abc                     & 126                    \\
+5                                        & abc                     & 127                     & abc                     & 127                    \\
+6                                        & abc                     & 128                     & abc                     & 128                    \\
+7                                        & abc                     & 129                     & abc                     & 129                    \\
+8                                        & abc                     & 130                     & abc                     & 130                    \\
+9                                        & abc                     & 131                     & abc                     & 131                    \\
+10                                       & abc                     & 132                     & abc                     & 132                    \\
+11                                       & abc                     & 133                     & abc                     & 133                    \\
+12                                       & abc                     & 134                     & abc                     & 134                    \\
+13                                       & abc                     & 135                     & abc                     & 135                    \\
+14                                       & abc                     & 136                     & abc                     & 136                    \\
+15                                       & abc                     & 137                     & abc                     & 137                   \\
+    \end{GDUTtable}\tablenotation{“+”表示重要组分，“*”表示冗余组分.}
+\end{table}
+
+\begin{table}[ht]
+    \caption{压降损失计算结果Pa}
+    \label{tab:3}
+    \centering
+    \begin{GDUTtable}{\textwidth}{YYY}
+        换热器 & 热边压降损失  & 冷边压降损失  \\ \hline
+        初级  & 2974.37 & 2931.52 \\
+        次级  & 2924.65 & 3789.76 \\
+    \end{GDUTtable}
+\end{table}

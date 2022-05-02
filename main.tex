@@ -1,0 +1,41 @@
+\documentclass{gdutarticle}
+
+\infosetup{
+  subject = 本科毕业设计（论文）,
+  title  = 汽车动力经济性能计算分析System的设计123,
+%   subtitle = Design of calculation and analysis system for automobile power economic performance
+  college = 机电工程学院,
+  major   = 机械设计制造及其自动化,
+  submajor   = （车辆工程方向）,
+  grade   = 2003级（1）班,
+  stuid   = 3103000651,
+  name    = 陈杰栋,
+  teacher = 樊晶明
+}
+\includeonly{
+    chapter/ZhAbstract.tex,
+    chapter/EnAbstract.tex,
+    chapter/introduction.tex,
+    chapter/analyze1.tex,
+    chapter/analyze2.tex,
+    chapter/thank.tex,
+    chapter/appendix1.tex,
+    chapter/appendix2.tex
+}
+\begin{document}
+
+\include{chapter/ZhAbstract.tex}
+\include{chapter/EnAbstract.tex}
+
+\makecontent
+\include{chapter/introduction.tex}
+\include{chapter/analyze1.tex}
+\include{chapter/analyze2.tex}
+
+\makereference{Reference}
+
+\include{chapter/thank.tex}
+\include{chapter/appendix1.tex}
+\include{chapter/appendix2.tex}
+
+\end{document}
